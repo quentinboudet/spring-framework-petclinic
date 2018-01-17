@@ -30,8 +30,8 @@ public class ValidatorTests {
 
         LocaleContextHolder.setLocale(Locale.ENGLISH);
         Person person = new Person();
-        person.setFirstName("");
-        person.setLastName("smith");
+        person.setFirstName("J-eanClaudia");
+        person.setLastName("olop");
 
         Validator validator = createValidator();
         Set<ConstraintViolation<Person>> constraintViolations = validator.validate(person);
